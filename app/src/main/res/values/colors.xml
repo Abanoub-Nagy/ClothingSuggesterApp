@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#EFEFF0</color>
+
+    <color name="font_temperature_color">#374161</color>
+
+    <color name="tertiary_87">#DE000000</color>
+    <color name="tertiary_60">#99000000</color>
+    <color name="tertiary_38">#61000000</color>
+
+    <color name="background">#FAFAFA</color>
+
 </resources>
