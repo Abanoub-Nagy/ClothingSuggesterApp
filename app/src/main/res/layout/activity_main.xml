@@ -35,7 +35,7 @@
             android:background="@drawable/background_card">
 
             <TextView
-                android:id="@+id/weatherDegree"
+                android:id="@+id/text_view_weather_temperature_degree"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/zero"
                 android:layout_marginStart="@dimen/spacing_large"
@@ -43,12 +43,12 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/degree_temperature_weather"
                 android:textColor="@color/font_temperature_color"
-                android:textSize="64sp"
+                android:textSize="@dimen/font_xxx_large_title"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/text_view_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_small"
@@ -56,9 +56,9 @@
                 android:text="@string/location"
                 android:textColor="@color/tertiary_60"
                 android:textSize="@dimen/font_size_body"
-                app:layout_constraintEnd_toEndOf="@+id/weatherDegree"
-                app:layout_constraintStart_toStartOf="@+id/weatherDegree"
-                app:layout_constraintTop_toBottomOf="@+id/weatherDegree" />
+                app:layout_constraintEnd_toEndOf="@+id/text_view_weather_temperature_degree"
+                app:layout_constraintStart_toStartOf="@+id/text_view_weather_temperature_degree"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_weather_temperature_degree" />
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/image_view_statues_weather"
@@ -81,9 +81,9 @@
                 android:text="@string/date_weather"
                 android:textColor="@color/tertiary_38"
                 android:textSize="@dimen/font_size_label"
-                app:layout_constraintEnd_toEndOf="@+id/textView"
-                app:layout_constraintStart_toStartOf="@+id/textView"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintEnd_toEndOf="@+id/text_view_location"
+                app:layout_constraintStart_toStartOf="@+id/text_view_location"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_location" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
