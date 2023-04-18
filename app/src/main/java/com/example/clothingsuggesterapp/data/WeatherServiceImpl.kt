@@ -1,5 +1,6 @@
 package com.example.clothingsuggesterapp.data
 
+import com.example.clothingsuggesterapp.BuildConfig
 import com.example.clothingsuggesterapp.model.WeatherResponse
 import com.google.gson.Gson
 import okhttp3.Call
@@ -35,7 +36,7 @@ class WeatherServiceImpl : WeatherService {
 
     companion object {
         private const val baseUrl =
-            "https://api.openweathermap.org/data/2.5/weather?q=Assiut&appid=e310ce954e51f1aee6146312081e1aac&units=metric"
+            "https://api.openweathermap.org/data/2.5/weather?q=Assiut&appid=${BuildConfig.appid}&units=metric"
     }
 
 }
