@@ -15,6 +15,6 @@
 
     <dimen name="radius_normal">16dp</dimen>
     <dimen name="radius_large">32dp</dimen>
-    <dimen name="font_xxx_large_title">64sp</dimen>
+    <dimen name="font_XXX_large_title">64sp</dimen>
 
 </resources>

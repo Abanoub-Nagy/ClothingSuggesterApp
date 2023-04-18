@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <TextView
         android:id="@+id/text_view_beautiful_day"
@@ -18,6 +18,7 @@
         android:textSize="@dimen/font_size_title_x_large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/weather_card"
@@ -82,6 +83,7 @@
                 android:textColor="@color/tertiary_38"
                 android:textSize="@dimen/font_size_label"
                 app:layout_constraintEnd_toEndOf="@+id/text_view_location"
+                app:layout_constraintHorizontal_bias="0.428"
                 app:layout_constraintStart_toStartOf="@+id/text_view_location"
                 app:layout_constraintTop_toBottomOf="@+id/text_view_location" />
 
@@ -119,6 +121,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero"
         android:layout_margin="@dimen/spacing_medium"
+        android:scaleType="centerCrop"
         android:src="@drawable/summer6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/text_view_next_suggestion"
